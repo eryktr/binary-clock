@@ -1,0 +1,25 @@
+#clock {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+
+}
+
+
+#clock > .clock_circle {
+    display: block
+}
+
+.clock-section {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 33vw;
+}
+
+.clock-circle {
+    height: 11vmin;
+    width: 11vmin;
+    border-radius: 100%;
+    border: 4px solid black;
+}
