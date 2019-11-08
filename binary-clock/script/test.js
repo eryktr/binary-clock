@@ -1,5 +1,5 @@
 var assert = require("assert");
-var script = require("./script")
+var script = require("./clock")
 
 const getActiveHourDivIds = script._test.getActiveHourDivIds;
 const getActiveMinuteDivIds = script._test.getActiveMinuteDivIds;
